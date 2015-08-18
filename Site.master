@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Spring 2014, ISAM5337.02- Assignment 5</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        <div id="panel">
+            <h1><span style="font-weight:bold; font-style:normal; color: firebrick; font-family:'Lucida Sans';">Aroma Cafe</span></h1>
+
+            <div id="banner"></div>
+            <hr />
+
+            <div id="navigation">
+            <!--navigation menu-->
+            <ul class="nav nav-pills nav-justified">
+                <li>
+                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Home.aspx">Home</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Menu.aspx">Menu</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/About Us.aspx">About Us</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Contact Us.aspx">Contact Us</asp:HyperLink></li>
+            </ul>
+       </div>
+        <br />
+     
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

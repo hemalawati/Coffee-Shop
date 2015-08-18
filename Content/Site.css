@@ -1,0 +1,44 @@
+﻿body {
+    background-image: url('Images/coffeeBackground.jpg');
+    background-repeat: no-repeat;
+}
+
+#panel {
+    width: 1020px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#banner {
+    height: 150px;
+    border: 3px solid #c87d20;
+    background-image: url('Images/coffeeBanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navigation {
+     border: 3px solid #c87d20;
+    height: 43px;
+    font-weight: bold;
+    background-color: #e6cece;
+}
+
+#AboutUs {
+    border: 3px solid #c87d20;
+    background-color: #e6cece;
+    color: firebrick;
+    padding-left:20px;
+}
+
+#ContactUs {
+    border: 3px solid #c87d20;
+    background-color: #e6cece;
+    text-align: center;
+    color: firebrick;
+}
+
+#mail, #hours {
+    padding-right: 40px;
+    list-style: none;
+}
